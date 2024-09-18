@@ -1,0 +1,99 @@
+
+
+
+header{
+    background-color: rgb(107, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    padding-top: 1%;
+    
+    
+    
+}
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.container a{
+ 
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20;
+    padding: 30px;
+}
+
+a:hover{
+    color: rgb(107, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 9px;
+    
+}
+
+button{
+    background-color: rgb(213, 209, 209);
+    color: rgb(27, 18, 18);
+    padding: 5px;
+}
+nav{
+    background-color:rgb(175, 175, 175);
+    float: left;
+    width: 20%;
+    height: 500px;
+    
+
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(175, 175, 175);
+    font-size: 20px;
+}
+article{
+    color: rgb(0, 0, 0);
+    background-color: rgb(189, 189, 189);
+    float: right;
+    width: 75%;
+    height: 500px;
+    padding-left: 5%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    text-align: center;
+
+    
+}
+
+footer{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(87, 0, 0);
+    padding: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    
+    font-weight: bold;
+}
+table{
+    background-color: #88000075;
+    width: 85%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+}
+th, td {
+    color: rgb(255, 255, 255);
+    border: 1px solid #ffffff;
+    padding: 8px;
+    text-align: left;
+ }
+ th {
+    background-color: #860101
+ }
+.column{
+    float: left;
+    width: 30%;
+    padding: 5px;
+}
+.row ::after{
+    content: "";
+    display: table;
+    clear: both;
+}
